@@ -12,8 +12,8 @@ int main(){
 	scanf("%f", &p);
 	printf("Digite sua altura \n");
 	scanf("%f", &a);
-	imc = (a*a)/p;
-	printf("Seu imc é igual a %2.2f \n",  imc);
+	imc = p/pow(a,2);
+	printf("Seu imc é igual a %.2f \n",  imc);
 	printf("Tecle enter para sair do DOS\n");
 	return 0;
 }
